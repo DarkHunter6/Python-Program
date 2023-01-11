@@ -1,0 +1,1 @@
+print('I AM THE GOD')

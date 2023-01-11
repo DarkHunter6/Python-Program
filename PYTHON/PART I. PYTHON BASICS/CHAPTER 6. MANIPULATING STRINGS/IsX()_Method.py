@@ -1,0 +1,6 @@
+UserName = 'Hello Tushar'
+print(UserName.isalpha()) # isalpha() - Must Have Only Alphabets | Ex - 'Tushar'
+print(UserName.isalnum()) # isalnum() - Must Have Alphabet & Number | Ex - 'Tushar123'
+print(UserName.isdecimal()) # isdecimal() - Must Have Only Decimal Numbers | Ex - '123'
+print(UserName.isspace()) # isspace() - If Only Have Space, Tabs & New Lines | Ex - ' ', '  ', ''' '''
+print(UserName.istitle()) # istitle() - Every Word Must Begin With Upper Case Letters And Followed By Lower Case letters | Ex - 'Hello Tushar'
