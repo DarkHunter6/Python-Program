@@ -22,7 +22,7 @@ def IsPhoneNumber(Text):
     # ------------------------- #
     return True
 
-Message = 'Call Me At 863-781-3299 Tommorrow. 816-758-0245 Is My Personal Number'
+Message = 'Call Me At 864-243-8789 Tommorrow. 967-245-8974 Is My Personal Number'
 for i in range(len(Message)):
     Find = Message[i : i + 12]
     if IsPhoneNumber(Find):
