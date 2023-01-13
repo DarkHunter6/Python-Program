@@ -21,8 +21,6 @@ def IsPhoneNumber(Text):
             return False
     # ------------------------- #
     return True
-# print('Enter Any Phone Number')
-# print(IsPhoneNumber(str(input())))
 
 Message = 'Call Me At 863-781-3299 Tommorrow. 816-758-0245 Is My Personal Number'
 for i in range(len(Message)):
