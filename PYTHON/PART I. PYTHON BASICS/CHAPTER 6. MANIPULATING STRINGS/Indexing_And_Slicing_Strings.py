@@ -1,4 +1,4 @@
-Details = "I'm Nobody And You Are A Fucking Lier"
+Details = "I'm Nobody And You Are A Lier"
 
 Details_1 = Details[12]                  # ---|
 print('Original Data Is : ' + Details)   #    |---> [ Indexing Strings ]
