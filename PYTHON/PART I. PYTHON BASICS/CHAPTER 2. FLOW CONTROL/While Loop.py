@@ -8,7 +8,7 @@
 # print('Enter Your Name')
 # Name = input()
 # while Name != 'Tushar Paul':
-#     print(Name + ' You Are Such An Asshole... Access Denied...!')
+#     print(Name + ' Make Sure You Are A Peaky Blinder Member... Access Denied...!')
 #     print('Enter Your Name ' + Name)
 #     Name = input()
 # else:
