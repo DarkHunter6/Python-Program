@@ -2,9 +2,9 @@
 
 from pytube import YouTube # Import 'Youtube' Class From 'pytube' Library.
 
-def Download():
+def Download(Link):
     MyTube = YouTube(Link) # Call The Youtube From import pytube And Pass The 'Link' Parameter Through It.
-    MyTube = MyTube.streams.get_highest_resolution() # 
+    MyTube = MyTube.streams.get_highest_resolution() # We Need The Highest Resolution, So We  
 
     try:
         MyTube.download()
