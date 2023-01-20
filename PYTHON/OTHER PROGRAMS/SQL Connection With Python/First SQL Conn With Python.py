@@ -1,7 +1,7 @@
 import pyodbc # pyodbc Package Helps Us To Provide Any Functionality Of SQL Server
 
 # Now Define The Connection String
-SqlDbConn = pyodbc.connect("Driver={SQL Server};" "Server=DARKEAGLE\SQLEXPRESS;" "Database=School;" "Trusted_connection=yes;")
+SqlDbConn = pyodbc.connect("Driver={SQL Server};" "Server=Loc/Hi;" "Database=School;" "Trusted_connection=yes;")
 
 # # # # # # # #  Write Function For Show The Data From The Table # # # # # # # # 
 
@@ -34,7 +34,7 @@ SqlDbConn = pyodbc.connect("Driver={SQL Server};" "Server=DARKEAGLE\SQLEXPRESS;"
 #     # Address = input('Enter Your Address : ')
 
 #     Cursor = SqlDbConn.cursor() # cursour Help  Us To Store The Table Rows
-#     Cursor.execute("INSERT INTO Teachers(NAME, ADDRESS) VALUES('Suryokanto Mishra', 'Coochbehar')")
+#     Cursor.execute("INSERT INTO Teachers(NAME, ADDRESS) VALUES('ABCD', 'ABCD')")
 #     Cursor.commit()
     
 #     Cursor_2 = SqlDbConn.cursor()
